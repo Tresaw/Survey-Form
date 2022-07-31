@@ -1,0 +1,83 @@
+<DOC html!>
+  <head>
+    <title>Young's Shotokan Karate</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Young's Shotokan Karate</h1>
+      <p id="description">Please use this form to tell us about yourself<p>
+        <form id="survey-form" required>
+          <label id="name-label">Name:</label>
+          <input id="name" type="text" required placeholder="Enter Your Name">
+          <label id="email-label">Email:</label>
+          <input id="email" type="Email" required placeholder="Enter Your Email">
+          </input>
+          <label id="number-label">Age:<label>
+            <input id="number" type="Number" required placeholder="Pick Your Age" min="5" max="75">
+ 
+ <Label> What option best describes your current schedule ?</label>
+   
+   <Select id="dropdown">
+     <option>Retired/Unemployed </option>      
+     <option>Full-Time Student</option>   
+     <option>Part-Time Student</option>
+     <option>Full-Time Job</option>
+     <option>
+       Part-Time Job
+       </option>
+        </select>
+
+<section>
+        <label>Do You have any martial arts experience?</label>
+
+        <label>
+       <input type="radio" value="1" name="radio-group" >Yes</label> 
+
+       <label>
+       <input type="radio" value="2" name="radio-group" >No </label>
+
+    <textarea placeholder="If Yes,explain..."></textarea>
+      </section>
+
+       <Label> What option best describes your motivation for training ?</label>
+   
+   <Select id="dropdown">
+     <option>Fitness </option>      
+     <option>Discipline</option>   
+     <option>Mental Health</option>
+     <option>Self Defense</option>
+     <option>Competition/Sparring </option>
+          </select>
+<fieldset>
+          <label>What Martial Arts Styles have you heard of?</label>
+          <label>
+<input type="checkbox"value="1">Karate
+</label>
+<label>
+<input type="checkbox"value="2">BJJ
+       </label>
+          <label>
+<input type="checkbox"value="3">Wrestling
+</label>
+<label>
+<input type="checkbox"value="4">Muay Thai
+       </label>
+          <label>
+<input type="checkbox"value="1">Judo
+</label>
+<label>
+<input type="checkbox"value="2">Boxing
+       </label>
+          <label>
+<input type="checkbox"value="1">Tae Kwon Do
+</label>
+<label>
+<input type="checkbox"value="2">Escrima
+       </label>
+       </fieldset>
+
+
+           <input id="submit" type="submit"> 
+          </form>
+ 
+    </body>

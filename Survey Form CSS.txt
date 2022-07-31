@@ -1,0 +1,41 @@
+p{
+  font-family:Tahoma;
+}
+
+label{
+display: block;
+font-family:Tahoma;
+}
+
+input{
+display:block;
+margin: 8px;
+padding:5px;
+}
+
+select{
+  width:70% auto;
+  display: block;
+  margin: 8px;
+  position:relative;
+}
+
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+input{
+display:inline-block;
+}
+
+textarea{
+  margin:8px;
+}
+fieldset{
+  display:block;
+}
+body{
+background-color: lightgrey;
+text-align:center;
+}
